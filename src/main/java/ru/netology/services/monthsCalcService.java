@@ -9,10 +9,10 @@ public class monthsCalcService {
                 myMoney = (myMoney - expenses) / 3;
                 count++;
                 System.out.println("Rest!");
-            } else{
+            } else {
                 myMoney = myMoney + income - expenses;//work
             }
-            System.out.println("month "+month+ "; myMoney "+myMoney+ "; count "+count);
+            System.out.println("month " + month + "; myMoney " + myMoney + "; count " + count);
         }
         return count;
     }
